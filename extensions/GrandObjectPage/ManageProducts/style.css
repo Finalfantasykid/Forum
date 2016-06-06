@@ -1,0 +1,12 @@
+/* Any custom styles should go here */
+
+tbody#productRows td:not(.checkboxCell) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50px;
+}
+
+#saveN {
+    vertical-align: top;
+}
